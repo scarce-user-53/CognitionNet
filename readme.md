@@ -91,7 +91,7 @@ chmod +x inference_runner.sh
 ./inference_runner.sh
 ```
 
-To reproduce DTCR-alike results with various classfiers, relevant cluster allocations are made available in `data/` folder(available after runnin `data_extraction.sh`) as train(chunk-1) and test(chunk-2) CSVs.
+To reproduce DTCR-alike results with various classfiers, relevant cluster allocations are made available in `data/` folder(available after running `data_extraction.sh`) as train(chunk-1) and test(chunk-2) CSVs.
 
 # Referrences
 
