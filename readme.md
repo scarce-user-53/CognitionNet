@@ -46,7 +46,7 @@ Keras with TensorFlow2.0 as backend environment:
 
 # Data
 
-Data (provided as `data.tar.gz`) can be extracted as follows:
+The data could not be uploaded to here due to size constraints but can be downloaded and extracted as follows:
 
 ```
 chmod +x data_extraction.sh
