@@ -1,5 +1,8 @@
 # Introduction
 
+**Note:** This research work has been accepted at the $28^{th}$ SIGKDD Conference on Knowledge Discovery and Data Mining, 2022.  
+  
+  
 This code contains the implementations of the proposed CognitionNet-TM along with other baselines - CognitionNet-S and DTCR-alike (with Logistic Regression, SVM, Random Forest, XGBoost, ANN as classifiers). Entire code is written using Keras with TensorFlow2.x as backend. We publish the anonymized version of our train and test datasets to get familiarity with the workflows. The pipeline can be used for any custom datasets of choice.
 
 This framework is a part of our review submission for the paper titled "CognitionNet: A Collaborative Neural Network for Play Style Discovery in Online Skill Gaming Platform". In this work, we focus on discovery of the “game behaviours” as micro-patterns formed by continuous sequence of games and the persistent “play styles” of the players’ as a sequence of such sequences on an online skill gaming platform for Rummy, as a case study. The complex sequences of intricate sequences is analysed through a novel collaborative two stage deep neural network, CognitionNet. The first stage focuses on mining game behaviours as cluster representations in a latent space (we leverage the work proposed in the paper [1]) while the second aggregates over these micro patterns (e.g., transitions across patterns) to discover play styles via a supervised classification objective around player engagement. In this submission, we make the following contributions:
